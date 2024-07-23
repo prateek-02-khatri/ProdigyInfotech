@@ -1,0 +1,44 @@
+name: task_02_to_do_list_app
+description: "To-Do List App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.3
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+  flutter_launcher_icons: "^0.13.1"
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/icon.png"
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
